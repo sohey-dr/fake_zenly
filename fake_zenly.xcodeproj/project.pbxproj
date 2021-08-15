@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87C72EF26C90F1800B23DE7 /* fake_zenlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87C72EE26C90F1800B23DE7 /* fake_zenlyApp.swift */; };
+		E87C72F126C90F1800B23DE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87C72F026C90F1800B23DE7 /* ContentView.swift */; };
+		E87C72F326C90F1900B23DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87C72F226C90F1900B23DE7 /* Assets.xcassets */; };
+		E87C72F626C90F1900B23DE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87C72F526C90F1900B23DE7 /* Preview Assets.xcassets */; };
+		E87C730126C90F1900B23DE7 /* fake_zenlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87C730026C90F1900B23DE7 /* fake_zenlyTests.swift */; };
+		E87C730C26C90F1900B23DE7 /* fake_zenlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87C730B26C90F1900B23DE7 /* fake_zenlyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E87C72FD26C90F1900B23DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87C72E326C90F1800B23DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87C72EA26C90F1800B23DE7;
+			remoteInfo = fake_zenly;
+		};
+		E87C730826C90F1900B23DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87C72E326C90F1800B23DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87C72EA26C90F1800B23DE7;
+			remoteInfo = fake_zenly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E87C72EB26C90F1800B23DE7 /* fake_zenly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fake_zenly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87C72EE26C90F1800B23DE7 /* fake_zenlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fake_zenlyApp.swift; sourceTree = "<group>"; };
+		E87C72F026C90F1800B23DE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E87C72F226C90F1900B23DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E87C72F526C90F1900B23DE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E87C72F726C90F1900B23DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87C72FC26C90F1900B23DE7 /* fake_zenlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fake_zenlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87C730026C90F1900B23DE7 /* fake_zenlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fake_zenlyTests.swift; sourceTree = "<group>"; };
+		E87C730226C90F1900B23DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87C730726C90F1900B23DE7 /* fake_zenlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fake_zenlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87C730B26C90F1900B23DE7 /* fake_zenlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fake_zenlyUITests.swift; sourceTree = "<group>"; };
+		E87C730D26C90F1900B23DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E87C72E826C90F1800B23DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87C72F926C90F1900B23DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87C730426C90F1900B23DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E87C72E226C90F1800B23DE7 = {
+			isa = PBXGroup;
+			children = (
+				E87C72ED26C90F1800B23DE7 /* fake_zenly */,
+				E87C72FF26C90F1900B23DE7 /* fake_zenlyTests */,
+				E87C730A26C90F1900B23DE7 /* fake_zenlyUITests */,
+				E87C72EC26C90F1800B23DE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E87C72EC26C90F1800B23DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87C72EB26C90F1800B23DE7 /* fake_zenly.app */,
+				E87C72FC26C90F1900B23DE7 /* fake_zenlyTests.xctest */,
+				E87C730726C90F1900B23DE7 /* fake_zenlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87C72ED26C90F1800B23DE7 /* fake_zenly */ = {
+			isa = PBXGroup;
+			children = (
+				E87C72EE26C90F1800B23DE7 /* fake_zenlyApp.swift */,
+				E87C72F026C90F1800B23DE7 /* ContentView.swift */,
+				E87C72F226C90F1900B23DE7 /* Assets.xcassets */,
+				E87C72F726C90F1900B23DE7 /* Info.plist */,
+				E87C72F426C90F1900B23DE7 /* Preview Content */,
+			);
+			path = fake_zenly;
+			sourceTree = "<group>";
+		};
+		E87C72F426C90F1900B23DE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E87C72F526C90F1900B23DE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E87C72FF26C90F1900B23DE7 /* fake_zenlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E87C730026C90F1900B23DE7 /* fake_zenlyTests.swift */,
+				E87C730226C90F1900B23DE7 /* Info.plist */,
+			);
+			path = fake_zenlyTests;
+			sourceTree = "<group>";
+		};
+		E87C730A26C90F1900B23DE7 /* fake_zenlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E87C730B26C90F1900B23DE7 /* fake_zenlyUITests.swift */,
+				E87C730D26C90F1900B23DE7 /* Info.plist */,
+			);
+			path = fake_zenlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E87C72EA26C90F1800B23DE7 /* fake_zenly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87C731026C90F1900B23DE7 /* Build configuration list for PBXNativeTarget "fake_zenly" */;
+			buildPhases = (
+				E87C72E726C90F1800B23DE7 /* Sources */,
+				E87C72E826C90F1800B23DE7 /* Frameworks */,
+				E87C72E926C90F1800B23DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fake_zenly;
+			productName = fake_zenly;
+			productReference = E87C72EB26C90F1800B23DE7 /* fake_zenly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E87C72FB26C90F1900B23DE7 /* fake_zenlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87C731326C90F1900B23DE7 /* Build configuration list for PBXNativeTarget "fake_zenlyTests" */;
+			buildPhases = (
+				E87C72F826C90F1900B23DE7 /* Sources */,
+				E87C72F926C90F1900B23DE7 /* Frameworks */,
+				E87C72FA26C90F1900B23DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87C72FE26C90F1900B23DE7 /* PBXTargetDependency */,
+			);
+			name = fake_zenlyTests;
+			productName = fake_zenlyTests;
+			productReference = E87C72FC26C90F1900B23DE7 /* fake_zenlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E87C730626C90F1900B23DE7 /* fake_zenlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87C731626C90F1900B23DE7 /* Build configuration list for PBXNativeTarget "fake_zenlyUITests" */;
+			buildPhases = (
+				E87C730326C90F1900B23DE7 /* Sources */,
+				E87C730426C90F1900B23DE7 /* Frameworks */,
+				E87C730526C90F1900B23DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87C730926C90F1900B23DE7 /* PBXTargetDependency */,
+			);
+			name = fake_zenlyUITests;
+			productName = fake_zenlyUITests;
+			productReference = E87C730726C90F1900B23DE7 /* fake_zenlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E87C72E326C90F1800B23DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E87C72EA26C90F1800B23DE7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E87C72FB26C90F1900B23DE7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E87C72EA26C90F1800B23DE7;
+					};
+					E87C730626C90F1900B23DE7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E87C72EA26C90F1800B23DE7;
+					};
+				};
+			};
+			buildConfigurationList = E87C72E626C90F1800B23DE7 /* Build configuration list for PBXProject "fake_zenly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E87C72E226C90F1800B23DE7;
+			productRefGroup = E87C72EC26C90F1800B23DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E87C72EA26C90F1800B23DE7 /* fake_zenly */,
+				E87C72FB26C90F1900B23DE7 /* fake_zenlyTests */,
+				E87C730626C90F1900B23DE7 /* fake_zenlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E87C72E926C90F1800B23DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87C72F626C90F1900B23DE7 /* Preview Assets.xcassets in Resources */,
+				E87C72F326C90F1900B23DE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87C72FA26C90F1900B23DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87C730526C90F1900B23DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E87C72E726C90F1800B23DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87C72F126C90F1800B23DE7 /* ContentView.swift in Sources */,
+				E87C72EF26C90F1800B23DE7 /* fake_zenlyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87C72F826C90F1900B23DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87C730126C90F1900B23DE7 /* fake_zenlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87C730326C90F1900B23DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87C730C26C90F1900B23DE7 /* fake_zenlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E87C72FE26C90F1900B23DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87C72EA26C90F1800B23DE7 /* fake_zenly */;
+			targetProxy = E87C72FD26C90F1900B23DE7 /* PBXContainerItemProxy */;
+		};
+		E87C730926C90F1900B23DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87C72EA26C90F1800B23DE7 /* fake_zenly */;
+			targetProxy = E87C730826C90F1900B23DE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E87C730E26C90F1900B23DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E87C730F26C90F1900B23DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E87C731126C90F1900B23DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"fake_zenly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = fake_zenly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sohey.fake-zenly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E87C731226C90F1900B23DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"fake_zenly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = fake_zenly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sohey.fake-zenly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E87C731426C90F1900B23DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fake_zenlyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sohey.fake-zenlyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fake_zenly.app/fake_zenly";
+			};
+			name = Debug;
+		};
+		E87C731526C90F1900B23DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fake_zenlyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sohey.fake-zenlyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fake_zenly.app/fake_zenly";
+			};
+			name = Release;
+		};
+		E87C731726C90F1900B23DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fake_zenlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sohey.fake-zenlyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fake_zenly;
+			};
+			name = Debug;
+		};
+		E87C731826C90F1900B23DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fake_zenlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sohey.fake-zenlyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fake_zenly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E87C72E626C90F1800B23DE7 /* Build configuration list for PBXProject "fake_zenly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87C730E26C90F1900B23DE7 /* Debug */,
+				E87C730F26C90F1900B23DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87C731026C90F1900B23DE7 /* Build configuration list for PBXNativeTarget "fake_zenly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87C731126C90F1900B23DE7 /* Debug */,
+				E87C731226C90F1900B23DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87C731326C90F1900B23DE7 /* Build configuration list for PBXNativeTarget "fake_zenlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87C731426C90F1900B23DE7 /* Debug */,
+				E87C731526C90F1900B23DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87C731626C90F1900B23DE7 /* Build configuration list for PBXNativeTarget "fake_zenlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87C731726C90F1900B23DE7 /* Debug */,
+				E87C731826C90F1900B23DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E87C72E326C90F1800B23DE7 /* Project object */;
+}
